@@ -1,4 +1,30 @@
 
+body {
+    margin: auto;
+    width: 90%;
+}
+
+.container {
+    margin-top: 10px;
+    border: solid 2px black;
+    padding: 0 20px;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
 img{
+    display: block;
+    margin: auto;
     height: 300px;
+}
+
+div + p {
+    margin: 20px auto;
+    width: 100px;
+    border: solid black 1px;
+    text-align: center;
+    padding: 5px;
 }
